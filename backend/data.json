@@ -1,0 +1,244 @@
+{
+    "patients": [
+      {
+        "id": "P001",
+        "firstName": "John",
+        "lastName": "Smith",
+        "dateOfBirth": "1985-03-15",
+        "gender": "Male",
+        "bloodType": "A+",
+        "email": "john.smith@email.com",
+        "phone": "+1-555-0101",
+        "address": {
+          "street": "123 Main St",
+          "city": "Springfield",
+          "state": "IL",
+          "zipCode": "62701"
+        },
+        "emergencyContact": {
+          "name": "Jane Smith",
+          "relationship": "Spouse",
+          "phone": "+1-555-0102"
+        },
+        "medicalHistory": ["Hypertension", "Type 2 Diabetes"],
+        "allergies": ["Penicillin"],
+        "lastVisit": "2024-10-15"
+      },
+      {
+        "id": "P002",
+        "firstName": "Emily",
+        "lastName": "Johnson",
+        "dateOfBirth": "1992-07-22",
+        "gender": "Female",
+        "bloodType": "O-",
+        "email": "emily.j@email.com",
+        "phone": "+1-555-0201",
+        "address": {
+          "street": "456 Oak Avenue",
+          "city": "Portland",
+          "state": "OR",
+          "zipCode": "97201"
+        },
+        "emergencyContact": {
+          "name": "Michael Johnson",
+          "relationship": "Father",
+          "phone": "+1-555-0202"
+        },
+        "medicalHistory": ["Asthma"],
+        "allergies": ["Pollen", "Dust mites"],
+        "lastVisit": "2024-11-01"
+      },
+      {
+        "id": "P003",
+        "firstName": "Michael",
+        "lastName": "Williams",
+        "dateOfBirth": "1978-11-30",
+        "gender": "Male",
+        "bloodType": "B+",
+        "email": "m.williams@email.com",
+        "phone": "+1-555-0301",
+        "address": {
+          "street": "789 Pine Road",
+          "city": "Austin",
+          "state": "TX",
+          "zipCode": "73301"
+        },
+        "emergencyContact": {
+          "name": "Sarah Williams",
+          "relationship": "Sister",
+          "phone": "+1-555-0302"
+        },
+        "medicalHistory": ["High Cholesterol"],
+        "allergies": [],
+        "lastVisit": "2024-09-20"
+      },
+      {
+        "id": "P004",
+        "firstName": "Sarah",
+        "lastName": "Brown",
+        "dateOfBirth": "2001-01-08",
+        "gender": "Female",
+        "bloodType": "AB+",
+        "email": "sarah.brown@email.com",
+        "phone": "+1-555-0401",
+        "address": {
+          "street": "321 Elm Street",
+          "city": "Seattle",
+          "state": "WA",
+          "zipCode": "98101"
+        },
+        "emergencyContact": {
+          "name": "David Brown",
+          "relationship": "Father",
+          "phone": "+1-555-0402"
+        },
+        "medicalHistory": [],
+        "allergies": ["Shellfish"],
+        "lastVisit": "2024-10-28"
+      },
+      {
+        "id": "P005",
+        "firstName": "David",
+        "lastName": "Martinez",
+        "dateOfBirth": "1965-05-17",
+        "gender": "Male",
+        "bloodType": "O+",
+        "email": "d.martinez@email.com",
+        "phone": "+1-555-0501",
+        "address": {
+          "street": "654 Maple Drive",
+          "city": "Miami",
+          "state": "FL",
+          "zipCode": "33101"
+        },
+        "emergencyContact": {
+          "name": "Maria Martinez",
+          "relationship": "Spouse",
+          "phone": "+1-555-0502"
+        },
+        "medicalHistory": ["Arthritis", "Coronary Artery Disease"],
+        "allergies": ["Aspirin"],
+        "lastVisit": "2024-11-05"
+      },
+      {
+        "id": "P006",
+        "firstName": "Jennifer",
+        "lastName": "Davis",
+        "dateOfBirth": "1988-09-12",
+        "gender": "Female",
+        "bloodType": "A-",
+        "email": "jennifer.davis@email.com",
+        "phone": "+1-555-0601",
+        "address": {
+          "street": "987 Birch Lane",
+          "city": "Denver",
+          "state": "CO",
+          "zipCode": "80201"
+        },
+        "emergencyContact": {
+          "name": "Robert Davis",
+          "relationship": "Spouse",
+          "phone": "+1-555-0602"
+        },
+        "medicalHistory": ["Migraine"],
+        "allergies": ["Latex"],
+        "lastVisit": "2024-10-10"
+      },
+      {
+        "id": "P007",
+        "firstName": "Robert",
+        "lastName": "Garcia",
+        "dateOfBirth": "1995-12-25",
+        "gender": "Male",
+        "bloodType": "B-",
+        "email": "rob.garcia@email.com",
+        "phone": "+1-555-0701",
+        "address": {
+          "street": "147 Cedar Court",
+          "city": "Phoenix",
+          "state": "AZ",
+          "zipCode": "85001"
+        },
+        "emergencyContact": {
+          "name": "Carlos Garcia",
+          "relationship": "Brother",
+          "phone": "+1-555-0702"
+        },
+        "medicalHistory": [],
+        "allergies": ["Bee stings"],
+        "lastVisit": "2024-08-15"
+      },
+      {
+        "id": "P008",
+        "firstName": "Lisa",
+        "lastName": "Anderson",
+        "dateOfBirth": "1982-04-03",
+        "gender": "Female",
+        "bloodType": "AB-",
+        "email": "lisa.anderson@email.com",
+        "phone": "+1-555-0801",
+        "address": {
+          "street": "258 Willow Way",
+          "city": "Boston",
+          "state": "MA",
+          "zipCode": "02101"
+        },
+        "emergencyContact": {
+          "name": "Thomas Anderson",
+          "relationship": "Spouse",
+          "phone": "+1-555-0802"
+        },
+        "medicalHistory": ["Hypothyroidism", "Depression"],
+        "allergies": ["Sulfa drugs"],
+        "lastVisit": "2024-11-08"
+      },
+      {
+        "id": "P009",
+        "firstName": "James",
+        "lastName": "Taylor",
+        "dateOfBirth": "1970-08-19",
+        "gender": "Male",
+        "bloodType": "A+",
+        "email": "james.taylor@email.com",
+        "phone": "+1-555-0901",
+        "address": {
+          "street": "369 Spruce Boulevard",
+          "city": "Chicago",
+          "state": "IL",
+          "zipCode": "60601"
+        },
+        "emergencyContact": {
+          "name": "Patricia Taylor",
+          "relationship": "Spouse",
+          "phone": "+1-555-0902"
+        },
+        "medicalHistory": ["COPD", "Hypertension"],
+        "allergies": [],
+        "lastVisit": "2024-10-22"
+      },
+      {
+        "id": "P010",
+        "firstName": "Amanda",
+        "lastName": "Thomas",
+        "dateOfBirth": "1998-02-14",
+        "gender": "Female",
+        "bloodType": "O+",
+        "email": "amanda.thomas@email.com",
+        "phone": "+1-555-1001",
+        "address": {
+          "street": "741 Ash Avenue",
+          "city": "San Diego",
+          "state": "CA",
+          "zipCode": "92101"
+        },
+        "emergencyContact": {
+          "name": "Linda Thomas",
+          "relationship": "Mother",
+          "phone": "+1-555-1002"
+        },
+        "medicalHistory": ["Anxiety disorder"],
+        "allergies": ["Cats"],
+        "lastVisit": "2024-11-02"
+      }
+    ]
+  }

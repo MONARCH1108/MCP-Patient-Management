@@ -1,0 +1,19 @@
+{
+  "name": "patient-data-mcp-fullstack",
+  "version": "1.0.0",
+  "description": "Full-stack Patient Data Management System with MCP Server and React Frontend",
+  "scripts": {
+    "install:all": "npm install && cd backend && npm install && cd ../frontend && npm install",
+    "backend:bridge": "cd backend && npm run bridge",
+    "backend:mcp": "cd backend && npm start",
+    "frontend": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run backend:bridge\" \"npm run frontend\""
+  },
+  "keywords": ["mcp", "patient", "data", "react", "express"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
+
